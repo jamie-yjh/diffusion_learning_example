@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+lab_venv/
+# env / secrets
+.env
+.env.*
+*.pem
+*.key
+# archives
+*.zip
+# datasets
+data/
+# LaTeX aux
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.bbl
+*.blg
+# misc
+*WECHAT*
+*wechat*
+.DS_Store
+# runs: only keep curated results
+lab_mnist_cond/runs/*
+!lab_mnist_cond/runs/final/
+!lab_mnist_cond/runs/final_log.txt
+!lab_mnist_cond/runs/eval_log.txt
+lab_mnist_cond/runs/final/ckpt.pt

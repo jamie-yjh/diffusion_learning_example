@@ -1,0 +1,17 @@
+T=1000  beta: 1.00e-04 -> 0.020  abar_T=4.04e-05
+params: 2,139,713
+epoch 1/8  loss=0.0293  elapsed=218s
+epoch 2/8  loss=0.0259  elapsed=423s
+epoch 3/8  loss=0.0243  elapsed=629s
+epoch 4/8  loss=0.0230  elapsed=834s
+epoch 5/8  loss=0.0226  elapsed=1030s
+epoch 6/8  loss=0.0221  elapsed=1231s
+epoch 7/8  loss=0.0215  elapsed=1440s
+epoch 8/8  loss=0.0216  elapsed=1649s
+train time: 1649.2s  final loss (last 50 steps) = 0.0220
+saved runs/final/x0_recon_check.png
+saved runs/final/samples_g1.png
+saved runs/final/samples_g1.5.png
+saved runs/final/samples_g3.png
+sampling time: 424.9s
+saved under runs/final/

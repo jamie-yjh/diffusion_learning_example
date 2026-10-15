@@ -1,0 +1,13 @@
+T=100  beta: 1.00e-04 -> 0.020  abar_T=3.64e-01
+epoch 1/400  loss=0.8683
+epoch 80/400  loss=0.6370
+epoch 160/400  loss=0.6167
+epoch 240/400  loss=0.6113
+epoch 320/400  loss=0.6056
+epoch 400/400  loss=0.6095
+train time: 22.1s  final loss (mean of last 50 steps) = 0.6095
+saved runs/moons_e400/result.png, data_vs_generated.png, reverse_frames.png, loss.png, ckpt.pt
+
+real	0m24.738s
+user	2m52.903s
+sys	0m0.537s
